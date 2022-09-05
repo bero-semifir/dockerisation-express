@@ -35,7 +35,7 @@ CMD ["npm", "start"]
 
 ## Construire l'image
 
-`docker build -t demo-express`
+`docker build -t demo-express .`
 
 ## Lancer l'app
 
