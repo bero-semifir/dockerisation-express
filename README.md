@@ -32,3 +32,11 @@ EXPOSE 3000
 CMD ["npm", "start"]
 
 ```
+
+## Construire l'image
+
+`docker build -t demo-express`
+
+## Lancer l'app
+
+`docker run -p 3000:3000 demo-express`
